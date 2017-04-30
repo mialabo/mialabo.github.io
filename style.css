@@ -3,21 +3,6 @@ font-family: Lobster-Regular;
 src: url(fonts/Lobster-Regular.ttf);
 }
 
-@font-face {
-font-family: myriad-set-pro_thin;
-src: url(fonts/myriad-set-pro_thin.ttf);
-}
-
-@font-face {
-font-family: myriad-set-pro_text;
-src: url(fonts/myriad-set-pro_text.ttf);
-}
-
-@font-face {
-font-family: myriad-set-pro_bold;
-src: url(fonts/myriad-set-pro_bold.ttf);
-}
-
 * {
 padding: 0;
 margin: 0;
@@ -29,7 +14,7 @@ height: 48px;
 width: 100%;
 padding: 10px 0 0 0;
 background: #ffffff;
-border-bottom: 1px solid #abc9e3;
+border-bottom: 1px solid #0099cc;
 }
 
 #wrapper {
@@ -71,19 +56,19 @@ padding: 6px;
 .title-01 {
 font-family: Lobster-Regular;
 font-size: 28px;
-color: #abc9e3;
+color: #0099cc;
 padding: 0 0 0 40px;
 }
 
 .title-02 {
 font-family: Lobster-Regular;
 font-size: 20px;
-color: #abc9e3;
+color: #0099cc;
 margin: 40px 0 20px 15px;
 }
 
 .title-03 {
-font-family: myriad-set-pro_text, Arial, sans-serif;
+font-family: Arial, sans-serif;
 font-size: 15px;
 line-height: 1.5;
 color: #444;
@@ -91,7 +76,7 @@ margin: 0 0 0 15px;
 }
 
 .title-04 {
-font-family: myriad-set-pro_thin, Arial, sans-serif;
+font-family: Arial, sans-serif;
 font-size: 24px;
 line-height: 1.4;
 color: #444;

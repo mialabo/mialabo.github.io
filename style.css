@@ -1,0 +1,99 @@
+@font-face {
+font-family: Lobster-Regular;
+src: url(fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+font-family: myriad-set-pro_thin;
+src: url(fonts/myriad-set-pro_thin.ttf);
+}
+
+@font-face {
+font-family: myriad-set-pro_text;
+src: url(fonts/myriad-set-pro_text.ttf);
+}
+
+@font-face {
+font-family: myriad-set-pro_bold;
+src: url(fonts/myriad-set-pro_bold.ttf);
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+#header {
+margin: 0 auto;
+height: 48px;
+width: 100%;
+padding: 10px 0 0 0;
+background: #ffffff;
+border-bottom: 1px solid #abc9e3;
+}
+
+#wrapper {
+position: static;
+margin: 0 auto;
+width: 800px;
+}
+
+#footer {
+margin: 0 auto;
+width: 800px;
+height: 100px;
+}
+
+#region-01 {
+/* avatar image, contacts */
+float: left;
+width: 250px;
+height: 100%;
+padding: 10px 0 0 0;
+}
+
+#region-02 {
+/* resume */
+float: right;
+width: 490px;
+padding: 60px 60px 60px 0px;
+}
+
+.avatar {
+border-radius: 50%;
+width: 120px;
+height: 120px;
+margin: 40px 0 0 40px;
+opacity: .90;
+padding: 6px;
+}
+
+.title-01 {
+font-family: Lobster-Regular;
+font-size: 28px;
+color: #abc9e3;
+padding: 0 0 0 40px;
+}
+
+.title-02 {
+font-family: Lobster-Regular;
+font-size: 20px;
+color: #abc9e3;
+margin: 40px 0 20px 15px;
+}
+
+.title-03 {
+font-family: myriad-set-pro_text, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+color: #444;
+margin: 0 0 0 15px;
+}
+
+.title-04 {
+font-family: myriad-set-pro_thin, Arial, sans-serif;
+font-size: 24px;
+line-height: 1.4;
+color: #444;
+margin: 30px 0 0px 40px;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
+
 * {
 padding: 0;
 margin: 0;
@@ -12,42 +14,43 @@ color: #444;
 
 #wrapper {
 margin: 0 auto;
-width: 800px;
+width: 780px;
 }
 
 #region-01 {
 float: left;
-width: 250px;
-height: 100%;
-padding: 10px 0 0 0;
+width: 260px;
+padding: 0 0 0 0;
 }
 
 #region-02 {
-float: right;
-width: 490px;
-padding: 60px 60px 60px 0px;
+float: left;
+width: 520px;
+padding: 60px 0 0 0;
 }
 
 .avatar {
 border-radius: 50%;
-width: 130px;
-height: 130px;
-margin: 40px 0 0 30px;
+width: 120px;
+height: 120px;
+margin: 50px 0 0 40px;
 }
 
 .title-01 {
-font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 22px;
 line-height: 1.4;
 color: #444;
-margin: 30px 0 0px 40px;
+margin: 40px 20px 0px 40px;
 }
 
 .title-02 {
-font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 22px;
 color: #0099cc;
-margin: 40px 0 20px 15px;
+margin: 40px 20px 20px 20px;
 }
 
 .title-03 {
-margin: 0 0 0 15px;
+margin: 0 20px 0 20px;
 }
